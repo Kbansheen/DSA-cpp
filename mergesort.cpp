@@ -78,7 +78,7 @@ int main()
 {
     int arr[] = {2,6,8,3,5};
     int n = 5;
-    cout<<"hi";
+    
 
     mergeSort(arr, 0, n-1);
     cout<<"sorted array: "<<endl;
