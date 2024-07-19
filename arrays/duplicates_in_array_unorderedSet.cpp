@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> removeDuplicates(vector<int> arr) {       
+vector<int> removeDuplicates(vector<int> arr) {                    //brute
     vector<int> ans;
     unordered_set<int> seen; // To keep track of seen elements
 

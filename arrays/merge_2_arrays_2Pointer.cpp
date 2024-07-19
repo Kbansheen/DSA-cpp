@@ -4,7 +4,7 @@ using namespace std;
 vector<int> ninjaAndSortedArrays(vector<int>& arr1, vector<int>& arr2, int m, int n) {
     
     int i = 0;  //pointers(2 pointer approach)
-    int j = 0;
+    int j = 0;  //tc = o(m+n)  sc = o(m+n)
 
 vector<int> temp;
 

@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
   public:
-    vector<int> duplicates(vector<long long> arr) {
+    vector<int> duplicates(vector<long long> arr) {          //better
         
         int n = arr.size();
         
