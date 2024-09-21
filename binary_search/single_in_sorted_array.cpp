@@ -7,7 +7,7 @@ int singleNonDuplicate(vector<int>& arr)
 	int n =  arr.size();
         int low = 1;
         int high = n-2;
-		if(n==1) return nums[0];  //if only 1 element
+		if(n==1) return arr[0];  //if only 1 element
 
          if(arr[0] != arr[1])
          return arr[0];
